@@ -29,7 +29,7 @@ import tensorflow as tf
 from object_detection import model_hparams
 from object_detection import model_lib
 
-tf.flags.DEFINE_bool('use_tpu', True, 'Use TPUs rather than plain CPUs')
+tf.flags.DEFINE_bool('use_tpu', False, 'Use TPUs rather than plain CPUs')
 
 # Cloud TPU Cluster Resolvers
 flags.DEFINE_string(
