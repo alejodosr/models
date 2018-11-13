@@ -111,7 +111,7 @@ def main(unused_argv):
       sample_1_of_n_eval_examples=FLAGS.sample_1_of_n_eval_examples,
       sample_1_of_n_eval_on_train_examples=(
           FLAGS.sample_1_of_n_eval_on_train_examples),
-      use_tpu_estimator=True,
+      use_tpu_estimator=False,
       use_tpu=FLAGS.use_tpu,
       num_shards=FLAGS.num_shards,
       save_final_config=FLAGS.mode == 'train',
